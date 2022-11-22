@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Al Qalam Quran Majeed.ttf",
+      "sha1": "5e07ba320fddf90e7b8a2e3f5ad6cd3d4e104c59"
+    },
+    {
+      "path": "assets/fonts/Al Qalam Quran.ttf",
+      "sha1": "6d8665ffc5dd8b88457eb39ebef3fd097f6b9772"
+    },
+    {
+      "path": "assets/fonts/KFGQPC AnRegular.ttf",
+      "sha1": "35fa41b23b0e94514e1d6a69c685919e0be8e50c"
+    },
+    {
+      "path": "assets/fonts/me_quran-2.ttf",
+      "sha1": "cf6ecefbed0205a2a62e3c9797420707029cb153"
+    },
+    {
+      "path": "assets/fonts/ScheherazadeNew-Bold.ttf",
+      "sha1": "36bc47a237e366c3ab112783012d367384332fe8"
+    },
+    {
+      "path": "assets/fonts/ScheherazadeNew-Regular.ttf",
+      "sha1": "8ef0a492dd1caf5e66b8e648dbe63db1b1171c3a"
+    },
+    {
+      "path": "assets/fonts/UthmanicHafs1Ver18.ttf",
+      "sha1": "672e441d0f956bee65d6f87d9aa08b676d5300aa"
+    },
+    {
+      "path": "assets/fonts/_PDMS_Saleem_QuranFont.ttf",
+      "sha1": "6317a8db41ac979d58b6f0577fba52223c608ef4"
+    }
+  ]
+}
