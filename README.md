@@ -1,6 +1,6 @@
 # Quranic Morphology
 
-This app is based on the dataset of grammatically annotated Quranic Verses, downloaded from corpus.quran.com.
+This app is based on the dataset of grammatically annotated Quranic Verses, downloaded from https://corpus.quran.com .
                                          
 The word by word english translation Data is taken from data-quran repository which is
 licensed under CC BY-NC-ND 4.0(https://creativecommons.org/licenses/by-nc-nd/4.0/)
