@@ -10,4 +10,6 @@ Link: https://github.com/hablullah/data-quran
 The font for the Arabic text is Scheherazade New
 Link: https://software.sil.org/scheherazade/download/
 
+![Screenshot](./assets/fonts/Screenshot1.jpg?raw=true)
+
 
