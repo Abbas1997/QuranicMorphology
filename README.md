@@ -1,4 +1,4 @@
-#Quranic Morphology
+# Quranic Morphology
 
 This app is based on the dataset of grammatically annotated Quranic Verses, downloaded from corpus.quran.com.
                                          
