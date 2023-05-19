@@ -1,3 +1,5 @@
+# [corpus.quran.com is being updated](https://github.com/kaisdukes/quranic-corpus)
+
 # Quranic Morphology
 
 This Android app is based on the dataset of grammatically annotated Quranic Verses, downloaded from https://corpus.quran.com .
