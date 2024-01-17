@@ -1,0 +1,678 @@
+[
+  {
+    "chapterNumber": 1,
+    "phonetic": "Al-Fātiḥah",
+    "translation": "The Opening",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 2,
+    "phonetic": "Al-Baqarah",
+    "translation": "The Cow",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 3,
+    "phonetic": "Āl ʿim'rān",
+    "translation": "The Family of Imrān",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 4,
+    "phonetic": "Al-Nisāa",
+    "translation": "The Women",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 5,
+    "phonetic": "Al-Māidah",
+    "translation": "The Table spread with Food",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 6,
+    "phonetic": "Al-Anʿām",
+    "translation": "The Cattle",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 7,
+    "phonetic": "Al-Aʿrāf",
+    "translation": "The Heights",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 8,
+    "phonetic": "Al-Anfāl",
+    "translation": "The Spoils of War",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 9,
+    "phonetic": "Al-Tawbah",
+    "translation": "The Repentance",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 10,
+    "phonetic": "Yūnus",
+    "translation": "Jonah",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 11,
+    "phonetic": "Hūd",
+    "translation": "Hud",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 12,
+    "phonetic": "Yūsuf",
+    "translation": "Joseph",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 13,
+    "phonetic": "Al-Raʿd",
+    "translation": "The Thunder",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 14,
+    "phonetic": "Ib'rāhīm",
+    "translation": "Abraham",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 15,
+    "phonetic": "Al-Ḥij'r",
+    "translation": "The Rocky Tract",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 16,
+    "phonetic": "Al-Naḥl",
+    "translation": "The Bees",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 17,
+    "phonetic": "Al-Isrā",
+    "translation": "The Night Journey",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 18,
+    "phonetic": "Al-Kahf",
+    "translation": "The Cave",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 19,
+    "phonetic": "Maryam",
+    "translation": "Mary",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 20,
+    "phonetic": "Ṭā hā",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 21,
+    "phonetic": "Al-Anbiyāa",
+    "translation": "The Prophets",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 22,
+    "phonetic": "Al-Ḥaj",
+    "translation": "The Pilgrimage",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 23,
+    "phonetic": "Al-Mu'minūn",
+    "translation": "The Believers",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 24,
+    "phonetic": "Al-Nūr",
+    "translation": "The Light",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 25,
+    "phonetic": "Al-Fur'qān",
+    "translation": "The Criterion",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 26,
+    "phonetic": "Al-Shuʿarā",
+    "translation": "The Poets",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 27,
+    "phonetic": "Al-Naml",
+    "translation": "The Ants",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 28,
+    "phonetic": "Al-Qaṣaṣ",
+    "translation": "The Stories",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 29,
+    "phonetic": "Al-ʿankabūt",
+    "translation": "The Spider",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 30,
+    "phonetic": "Al-Rūm",
+    "translation": "The Romans",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 31,
+    "phonetic": "Luq'mān",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 32,
+    "phonetic": "Al-Sajdah",
+    "translation": "The Prostration",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 33,
+    "phonetic": "Al-Aḥzāb",
+    "translation": "The Combined Forces",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 34,
+    "phonetic": "Saba",
+    "translation": "Sheba",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 35,
+    "phonetic": "Fāṭir",
+    "translation": "The Originator",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 36,
+    "phonetic": "Yā sīn",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 37,
+    "phonetic": "Al-Ṣāfāt",
+    "translation": "Those Ranges in Ranks",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 38,
+    "phonetic": "Ṣād",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 39,
+    "phonetic": "Al-Zumar",
+    "translation": "The Groups",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 40,
+    "phonetic": "Ghāfir",
+    "translation": "The Forgiver God",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 41,
+    "phonetic": "Fuṣṣilat",
+    "translation": "Explained in Detail",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 42,
+    "phonetic": "Al-Shūrā",
+    "translation": "Consultation",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 43,
+    "phonetic": "Al-Zukh'ruf",
+    "translation": "The Gold Adornment",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 44,
+    "phonetic": "Al-Dukhān",
+    "translation": "The Smoke",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 45,
+    "phonetic": "Al-Jāthiyah",
+    "translation": "Crouching",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 46,
+    "phonetic": "Al-Aḥqāf",
+    "translation": "The Curved Sand-hills",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 47,
+    "phonetic": "Muḥammad",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 48,
+    "phonetic": "Al-Fatḥ",
+    "translation": "The Victory",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 49,
+    "phonetic": "Al-Ḥujurāt",
+    "translation": "The Dwellings",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 50,
+    "phonetic": "Qāf",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 51,
+    "phonetic": "Al-Dhāriyāt",
+    "translation": "The Wind that Scatter",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 52,
+    "phonetic": "Al-Ṭūr",
+    "translation": "The Mount",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 53,
+    "phonetic": "Al-Najm",
+    "translation": "The Star",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 54,
+    "phonetic": "Al-Qamar",
+    "translation": "The Moon",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 55,
+    "phonetic": "Al-Raḥmān",
+    "translation": "The Most Gracious",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 56,
+    "phonetic": "Al-Wāqiʿah",
+    "translation": "The Event",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 57,
+    "phonetic": "Al-Ḥadīd",
+    "translation": "The Iron",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 58,
+    "phonetic": "Al-Mujādilah",
+    "translation": "She That Disputeth",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 59,
+    "phonetic": "Al-Ḥashr",
+    "translation": "The Gathering",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 60,
+    "phonetic": "Al-Mum'taḥanah",
+    "translation": "The Woman to be examined",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 61,
+    "phonetic": "Al-Ṣaf",
+    "translation": "The Row",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 62,
+    "phonetic": "Al-Jumuʿah",
+    "translation": "Friday",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 63,
+    "phonetic": "Al-Munāfiqūn",
+    "translation": "The Hypocrites",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 64,
+    "phonetic": "Al-Taghābun",
+    "translation": "Mutual Loss & Gain",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 65,
+    "phonetic": "Al-Ṭalāq",
+    "translation": "The Divorce",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 66,
+    "phonetic": "Al-Taḥrīm",
+    "translation": "The Prohibition",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 67,
+    "phonetic": "Al-Mulk",
+    "translation": "Dominion",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 68,
+    "phonetic": "Al-Qalam",
+    "translation": "The Pen",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 69,
+    "phonetic": "Al-Ḥāqah",
+    "translation": "The Inevitable",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 70,
+    "phonetic": "Al-Maʿārij",
+    "translation": "The Ways of Ascent",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 71,
+    "phonetic": "Nūḥ",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 72,
+    "phonetic": "Al-Jin",
+    "translation": "The Jinn",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 73,
+    "phonetic": "Al-Muzamil",
+    "translation": "The One wrapped in Garments",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 74,
+    "phonetic": "Al-Mudathir",
+    "translation": "The One Enveloped",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 75,
+    "phonetic": "Al-Qiyāmah",
+    "translation": "The Resurrection",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 76,
+    "phonetic": "Al-Insān",
+    "translation": "Man",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 77,
+    "phonetic": "Al-Mur'salāt",
+    "translation": "Those sent forth",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 78,
+    "phonetic": "Al-Naba",
+    "translation": "The Great News",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 79,
+    "phonetic": "Al-Nāziʿāt",
+    "translation": "Those who Pull Out",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 80,
+    "phonetic": "ʿabasa",
+    "translation": "He frowned",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 81,
+    "phonetic": "Al-Takwīr",
+    "translation": "The Overthrowing",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 82,
+    "phonetic": "Al-Infiṭār",
+    "translation": "The Cleaving",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 83,
+    "phonetic": "Al-Muṭafifīn",
+    "translation": "Those Who Deal in Fraud",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 84,
+    "phonetic": "Al-Inshiqāq",
+    "translation": "The Splitting Asunder",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 85,
+    "phonetic": "Al-Burūj",
+    "translation": "The Big Stars",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 86,
+    "phonetic": "Al-Ṭāriq",
+    "translation": "The Night-Comer",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 87,
+    "phonetic": "Al-Aʿlā",
+    "translation": "The Most High",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 88,
+    "phonetic": "Al-Ghāshiyah",
+    "translation": "The Overwhelming",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 89,
+    "phonetic": "Al-Fajr",
+    "translation": "The Dawn",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 90,
+    "phonetic": "Al-Balad",
+    "translation": "The City",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 91,
+    "phonetic": "Al-Shams",
+    "translation": "The Sun",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 92,
+    "phonetic": "Al-Layl",
+    "translation": "The Night",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 93,
+    "phonetic": "Al-Ḍuḥā",
+    "translation": "The Forenoon",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 94,
+    "phonetic": "Al-Sharḥ",
+    "translation": "The Opening Forth",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 95,
+    "phonetic": "Al-Tīn",
+    "translation": "The Fig",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 96,
+    "phonetic": "Al-ʿalaq",
+    "translation": "The Clot",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 97,
+    "phonetic": "Al-Qadr",
+    "translation": "The Night of Decree",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 98,
+    "phonetic": "Al-Bayinah",
+    "translation": "The Clear Evidence",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 99,
+    "phonetic": "Al-Zalzalah",
+    "translation": "The Earthquake",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 100,
+    "phonetic": "Al-ʿādiyāt",
+    "translation": "Those That Run",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 101,
+    "phonetic": "Al-Qāriʿah",
+    "translation": "The Striking Hour",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 102,
+    "phonetic": "Al-Takāthur",
+    "translation": "The piling Up",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 103,
+    "phonetic": "Al-ʿaṣr",
+    "translation": "Time",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 104,
+    "phonetic": "Al-Humazah",
+    "translation": "The Slanderer",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 105,
+    "phonetic": "Al-Fīl",
+    "translation": "The Elephant",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 106,
+    "phonetic": "Quraysh",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 107,
+    "phonetic": "Al-Māʿūn",
+    "translation": "Small Kindnesses",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 108,
+    "phonetic": "Al-Kawthar",
+    "translation": "A River in Paradise",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 109,
+    "phonetic": "Al-Kāfirūn",
+    "translation": "The Disbelievers",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 110,
+    "phonetic": "Al-Naṣr",
+    "translation": "The Help",
+    "city": "Madinah"
+  },
+  {
+    "chapterNumber": 111,
+    "phonetic": "Al-Masad",
+    "translation": "The Palm Fibre",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 112,
+    "phonetic": "Al-Ikhlāṣ",
+    "translation": "Sincerity",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 113,
+    "phonetic": "Al-Falaq",
+    "translation": "The Daybreak",
+    "city": "Makkah"
+  },
+  {
+    "chapterNumber": 114,
+    "phonetic": "Al-Nās",
+    "translation": "Mankind",
+    "city": "Makkah"
+  }
+]
