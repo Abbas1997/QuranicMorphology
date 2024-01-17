@@ -10,25 +10,38 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-native/metro-config": "^0.73.2",
+    "@react-native/gradle-plugin": "^0.73.4",
+    "@react-native/metro-config": "^0.80.2",
     "@react-navigation/native": "^6.1.9",
     "react": "18.2.0",
     "react-native": "0.73.1",
+    "react-native-clean-project": "^4.0.3",
     "react-native-gradle-plugin": "^0.71.19",
-    "react-native-vector-icons": "^9.2.0"
+    "react-native-pager-view": "^6.2.3",
+    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-tab-view": "^3.5.2",
+    "react-native-vector-icons": "^10.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/runtime": "^7.12.5",
-    "@react-native-community/eslint-config": "^2.0.0",
-    "babel-jest": "^26.6.3",
-    "eslint": "^7.32.0",
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/babel-preset": "^0.73.18",
+    "@react-native/eslint-config": "^0.73.1",
+    "@react-native/metro-config": "^0.73.2",
+    "@react-native/typescript-config": "^0.73.1",
+    "@types/react": "^18.2.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.6.3",
+    "eslint": "^8.19.0",
     "jest": "^26.6.3",
-    "metro-config": "^0.80.2",
-    "metro-react-native-babel-preset": "^0.72.1",
-    "react-test-renderer": "18.1.0"
+    "prettier": "2.8.8",
+    "react-test-renderer": "18.2.0"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

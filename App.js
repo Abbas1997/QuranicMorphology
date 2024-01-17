@@ -1,23 +1,23 @@
-import React, { useState, useRef } from 'react';
-import { ScrollView } from 'react-native';
-import getData from './Components/getData';
-import SelectionMenu from './Components/SelectionMenu';
+import { React, useState, useEffect, lazy, Suspense } from 'react';
+import Indicator from './Components/Indicator';
+
+
+const Content = lazy(() => import('./Components/Content'))
+	
+
 
 const App = () => {
+	const [cvno, set_cvno] = useState([1, 1])
+	const [content, setContent] = useState(<Indicator />)
 
-  const[cvno, set_cvno] = useState([1,1,0])
-  const sRef = useRef(null)
-
-  return (
-    <ScrollView
-      stickyHeaderIndices={[0]}
-      ref = {sRef}
-    >
-      <SelectionMenu key={'u1'} cvno={cvno} set_cvno={set_cvno}/>
-      {getData(sRef, cvno, set_cvno)}
-    </ScrollView>
-  );
+	useEffect(() => {
+		setContent(<Content cvno={cvno} set_cvno={set_cvno} />)
+	}, [cvno])
+	return (
+		<Suspense fallback={<Indicator />}>
+			{content}
+		</Suspense>
+	)
 };
 
 export default App;
-

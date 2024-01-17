@@ -2,10 +2,7 @@ import corpus from './readcorpus';
 import word_translation from './wordtranslations';
 import { MainList } from './MainList';
 import NextPrev from './NextPrev';
-import { Text, View } from 'react-native';
-import IndexTable from './IndexTable'
-import indice from './indice';
-import license from './license';
+import SelectionMenu from './SelectionMenu';
 
 function checkVerse(tag, chapter, verse) {
     let CVno = tag.replace('(', '').replace(')', '').split(':')
@@ -21,26 +18,24 @@ function checkWord(tag, chapter, verse, noWord) {
     return result
 }
 
-const getData = (sRef, cvno, set_cvno) => {
-    let info = cvno[2]
-    if (info == 1) {
-        return (
-            <View>
-                <Text style={{ margin: 10, color: 'black' }}>
-                    This app is based on the dataset of grammatically annotated Quranic Verses, downloaded from corpus.quran.com.
-                    {'\n'} {'\n'}
-                    The word by word english translation Data is taken from data-quran repository which is
-                    licensed under CC BY-NC-ND 4.0{'\n'}{'\n'}({`https://creativecommons.org/licenses/by-nc-nd/4.0/`}){'\n'}{'\n'}
-                    and collected by Hablullah team from various sources, e.g. Tanzil, QuranEnc, etc.{'\n'}{'\n'}
-                    Link: {`https://github.com/hablullah/data-quran`}{'\n'}{'\n'}
-                    The font for the Arabic text is Scheherazade New {'\n'}
-                    {'\n'}
-                    Link: {`https://software.sil.org/scheherazade/download/`} {'\n'}{'\n'}
-                </Text>
-                <Text style={{ margin: 5, fontWeight: 'bold', color: 'black' }}> CORPUS.QURAN.COM License:</Text>
-                <Text style={{ margin: 10, color: 'black' }}>{license}</Text>
-            </View>)
+function getDataLight(cvno) {
+    let chapter = cvno[0]
+    let verse = cvno[1]
+    let word = []
+    let str = '(' + chapter + ':' + verse + ':1:1' + ')'
+
+    let index = corpus.findIndex((elem) => elem[0] === str)
+
+    if (index == undefined || index == -1) {
+        return chapter + ',' + verse
     }
+    else {
+        return 1
+    }
+}
+
+const getData = (sRef, cvno, set_cvno) => {
+
     let chapter = cvno[0]
     let verse = cvno[1]
     let word = []
@@ -48,24 +43,6 @@ const getData = (sRef, cvno, set_cvno) => {
 
     let index = corpus.findIndex((elem) => elem[0] === str)
     let index2 = index
-
-    if (index == undefined || index == -1) {
-        if (chapter > 114) {
-            return <Text style={{ margin: 5, fontSize: 18, color: 'black' }}>There are only 114 chapters in the Holy Quran.</Text>
-        }
-        let v_no = indice.find(elem => elem[0] == chapter)
-        if (v_no && verse > v_no[1]) {
-            return <Text style={{ margin: 5, fontSize: 18, color: 'black' }}>
-                There are only {v_no[1]} verses in in chapter {chapter}
-            </Text>
-        }
-        return <Text style={{ margin: 5, fontSize: 22, color: 'black' }}>
-            Invalid input{'\n'}
-            Please only enter numbers{'\n'}
-            <Text style={{ fontWeight: 'bold' }}>{'\n'}Chapter{'\t\t\t\t'}Verse</Text>
-            <IndexTable />
-        </Text>
-    }
 
     while (checkVerse(corpus[index][0], chapter, verse) && index < 128219) {
 
@@ -78,6 +55,7 @@ const getData = (sRef, cvno, set_cvno) => {
         let strt = line[0].replace('(', '').replace(')', '')
         let trans = word_translation.find(elem => elem[0] == strt)
         trans = trans[1]
+        
 
         let cWord = strt.split(':')[2]
 
@@ -98,12 +76,11 @@ const getData = (sRef, cvno, set_cvno) => {
             index++
 
             if (corpus[cIndex] === undefined) {
-                console.log('this index is undefined' + cIndex + 'breaking loop')
+                //console.log('this index is undefined' + cIndex + 'breaking loop')
                 break
             }
 
         }
-
         data.push(data1)
         data.push(data2)
         data.push(data3)
@@ -113,24 +90,26 @@ const getData = (sRef, cvno, set_cvno) => {
 
         index++
         if (corpus[cIndex] === undefined) {
-            console.log('this index is undefined' + cIndex + 'breaking loop')
+            //console.log('this index is undefined' + cIndex + 'breaking loop')
             break
         }
 
     }
 
-    let components = []
-    word.forEach((elem, index) => components.push(<MainList key={index} data={elem} />))
-
-    let prev
+    let components = [] 
+    let prev = false
     if (corpus[index2 - 1]) {
         prev = corpus[index2 - 1][0]
     }
 
-    let next
+    let next = false
     if (corpus[index]) {
         next = corpus[index][0]
     }
+
+    //width={width}
+    components.push(<SelectionMenu key={'u1'} cvno={cvno}  set_cvno={set_cvno} Next={next} Prev={prev} scroller={sRef}/>)
+    word.forEach((elem, index) => components.push(<MainList key={index} data={elem} />))
 
     components.push(<NextPrev
         key={'unique key'}
@@ -142,4 +121,4 @@ const getData = (sRef, cvno, set_cvno) => {
     return components
 }
 
-export default getData
+export {getData}

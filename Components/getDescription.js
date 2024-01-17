@@ -1,5 +1,3 @@
-
-
 let nouns = [
     ['PCPL', ' participle'],
     ['VN', ' verbal noun']

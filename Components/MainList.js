@@ -79,7 +79,7 @@ const MainList = (props) => {
           <View style={{ marginRight: 5}}>
             <Text style = {{fontFamily: 'ScheherazadeNew-Regular', fontSize: 32, height: 65}}>
               {returnString(props.data)}
-              <Text style={{size: 48}}>{sajdah.includes(props.data[0]) ? '\u06E9' : ''}</Text>
+              <Text style={{fontSize: 48}}>{sajdah.includes(props.data[0]) ? '\u06E9' : ''}</Text>
             </Text>
           </View>
         </View>
@@ -92,5 +92,3 @@ const MainList = (props) => {
 }
 
 export { MainList }
-
-// {returnString(data)}

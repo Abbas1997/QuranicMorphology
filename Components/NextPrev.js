@@ -20,7 +20,7 @@ const NextPrev = (props) => {
                 android_ripple={{color: 'white', foreground: true}}
                 onPress = {() => { 
                     let dValue = props.prev.replace('(','').split(':')
-                    props.set_cvno([dValue[0], dValue[1], 0])
+                    props.set_cvno([dValue[0], dValue[1]])
                     props.scroller.current.scrollTo({ x: 0, y: 0, animated: true })
                 }}
                 disabled = {!props.prev}
@@ -36,7 +36,7 @@ const NextPrev = (props) => {
                         android_ripple={{color: 'white', foreground: true}}
                         onPress = {() => { 
                             let dValue = props.next.replace('(','').split(':')
-                            props.set_cvno([dValue[0], dValue[1], 0])
+                            props.set_cvno([dValue[0], dValue[1]])
                             props.scroller.current.scrollTo({ x: 0, y: 0, animated: false })
                         }}
                         disabled = {!props.next}
